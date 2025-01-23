@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --radius: 0.5rem
+  }
+}
+
+/* Hide the cursor in the typical animation */
+.no-cursor .typical-cursor {
+  display: none !important;
+}
+
